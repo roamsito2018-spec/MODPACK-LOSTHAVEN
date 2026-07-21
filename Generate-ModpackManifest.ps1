@@ -27,6 +27,8 @@ $excludedDirectories = @(
 $excludedFiles = @(
     $outputName,
     "Generate-ModpackManifest.ps1",
+    "Generate-ModpackManifest-FIX.ps1",
+    "Generate-ModpackManifest-FIX2.ps1",
     "manifest.json"
 )
 
@@ -59,12 +61,46 @@ function Convert-ToUrlPath {
     )
 
     $segments = $RelativePath -split "[\\/]"
-
     $encodedSegments = foreach ($segment in $segments) {
         [System.Uri]::EscapeDataString($segment)
     }
 
     return ($encodedSegments -join "/")
+}
+
+function Get-Sha256 {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$FilePath
+    )
+
+    $stream = $null
+    $sha256 = $null
+
+    try {
+        $stream = [System.IO.File]::Open(
+            $FilePath,
+            [System.IO.FileMode]::Open,
+            [System.IO.FileAccess]::Read,
+            [System.IO.FileShare]::Read
+        )
+
+        $sha256 = [System.Security.Cryptography.SHA256]::Create()
+        $hashBytes = $sha256.ComputeHash($stream)
+
+        return (
+            [System.BitConverter]::ToString($hashBytes)
+        ).Replace("-", "").ToLower()
+    }
+    finally {
+        if ($sha256 -ne $null) {
+            $sha256.Dispose()
+        }
+
+        if ($stream -ne $null) {
+            $stream.Dispose()
+        }
+    }
 }
 
 Write-Host ""
@@ -93,26 +129,39 @@ $files = Get-ChildItem -Path $root -File -Recurse |
     Sort-Object FullName
 
 $manifestFiles = @()
+$index = 0
 
 foreach ($file in $files) {
+    $index++
+
     $relativePath = (
         Get-RelativePath -BasePath $root -FullPath $file.FullName
     ).Replace("\", "/")
 
-    $urlPath = Convert-ToUrlPath -RelativePath $relativePath
+    try {
+        Write-Host "[$index/$($files.Count)] Procesando: $relativePath"
 
-    $hash = (
-        Get-FileHash -Path $file.FullName -Algorithm SHA256
-    ).Hash.ToLowerInvariant()
+        $urlPath = Convert-ToUrlPath -RelativePath $relativePath
+        $hash = Get-Sha256 -FilePath $file.FullName
 
-    $manifestFiles += [ordered]@{
-        path = $relativePath
-        url = "https://raw.githubusercontent.com/$Owner/$Repository/$Branch/$urlPath"
-        size = [int64]$file.Length
-        sha256 = $hash
+        if ([string]::IsNullOrWhiteSpace($hash)) {
+            throw "No se pudo calcular el SHA-256."
+        }
+
+        $manifestFiles += [ordered]@{
+            path = $relativePath
+            url = "https://raw.githubusercontent.com/$Owner/$Repository/$Branch/$urlPath"
+            size = [int64]$file.Length
+            sha256 = $hash
+        }
     }
-
-    Write-Host "Incluido: $relativePath"
+    catch {
+        Write-Host ""
+        Write-Host "ERROR procesando: $relativePath" -ForegroundColor Red
+        Write-Host $_.Exception.Message -ForegroundColor Red
+        Write-Host ""
+        throw
+    }
 }
 
 $manifest = [ordered]@{
@@ -127,11 +176,11 @@ $json = $manifest | ConvertTo-Json -Depth 8
 [System.IO.File]::WriteAllText(
     $outputPath,
     $json,
-    [System.Text.UTF8Encoding]::new($false)
+    (New-Object System.Text.UTF8Encoding($false))
 )
 
 Write-Host ""
-Write-Host "Manifest generado correctamente."
+Write-Host "Manifest generado correctamente." -ForegroundColor Green
 Write-Host "Archivos incluidos: $($manifestFiles.Count)"
 Write-Host "Resultado: $outputPath"
 Write-Host ""
