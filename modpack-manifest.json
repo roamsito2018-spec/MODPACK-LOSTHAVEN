@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "modpackVersion": "1.0.0",
-  "generatedAtUtc": "2026-07-21T08:55:36.5962179+00:00",
+  "generatedAtUtc": "2026-07-21T15:47:38.6639833+00:00",
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1210,6 +1210,12 @@
       "sha256": "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
     },
     {
+      "path": "LostHavenManifestGenerator.sln",
+      "url": "https://raw.githubusercontent.com/roamsito2018-spec/MODPACK-LOSTHAVEN/main/LostHavenManifestGenerator.sln",
+      "size": 907,
+      "sha256": "b720033874acad5adb4be26d37f2e4a21b23674f50f42752aa694ec2ae5d35df"
+    },
+    {
       "path": "mods/aether-1.21.1-1.5.11-fabric.jar",
       "url": "https://raw.githubusercontent.com/roamsito2018-spec/MODPACK-LOSTHAVEN/main/mods/aether-1.21.1-1.5.11-fabric.jar",
       "size": 40931095,
@@ -1370,6 +1376,12 @@
       "url": "https://raw.githubusercontent.com/roamsito2018-spec/MODPACK-LOSTHAVEN/main/mods/entity_texture_features_1.21-fabric-7.1.jar",
       "size": 745421,
       "sha256": "d1b54ad6fd34eaf7187fb62556f2c5cacdc2ea3023a6217e3b2d823285aea148"
+    },
+    {
+      "path": "mods/EuphoriaPatcher-1.9.3-r5.8.1-fabric.jar",
+      "url": "https://raw.githubusercontent.com/roamsito2018-spec/MODPACK-LOSTHAVEN/main/mods/EuphoriaPatcher-1.9.3-r5.8.1-fabric.jar",
+      "size": 4296552,
+      "sha256": "b42bd00c7ab6e044d21f845dedc58a4524e45643f3685bf1c2343098e74d662e"
     },
     {
       "path": "mods/Explorify v1.6.5.mod.jar",
