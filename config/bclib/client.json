@@ -1,0 +1,10 @@
+{
+  "rendering": {
+    "custom_fog_rendering": true,
+    "nether_thick_fog": true,
+    "fog_density": 1.0
+  },
+  "ui": {
+    "survives_on_hint": true
+  }
+}
