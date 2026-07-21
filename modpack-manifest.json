@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "modpackVersion": "1.0.0",
-  "generatedAtUtc": "2026-07-21T08:31:50.0705929+00:00",
+  "generatedAtUtc": "2026-07-21T08:55:36.5962179+00:00",
   "files": [
     {
       "path": "config/accessories.json5",
@@ -1508,6 +1508,12 @@
       "url": "https://raw.githubusercontent.com/roamsito2018-spec/MODPACK-LOSTHAVEN/main/mods/JustEnoughResources-Fabric-1.21.1-1.6.0.17.jar",
       "size": 245461,
       "sha256": "98723709cede50f05988f5ce200f14385b358d0361a3bdd90bb946d6ae84e46e"
+    },
+    {
+      "path": "mods/konkrete_fabric_1.9.9_MC_1.21.jar",
+      "url": "https://raw.githubusercontent.com/roamsito2018-spec/MODPACK-LOSTHAVEN/main/mods/konkrete_fabric_1.9.9_MC_1.21.jar",
+      "size": 786695,
+      "sha256": "06e912f99d59bf81c0676f1db936150ad4443d5674f59b3c55604540ba620841"
     },
     {
       "path": "mods/lithostitched-1.7.13-fabric-21.1.jar",
