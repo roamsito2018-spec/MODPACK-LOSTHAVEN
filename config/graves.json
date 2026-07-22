@@ -1,0 +1,87 @@
+{
+  "configVersion": 7,
+  "general": {
+    "despawnTimerMinutes": 30
+  },
+  "protection": {
+    "ownerOnlyAccess": true,
+    "unlockWhenDespawnTimerExpires": true,
+    "unlockAfterMinutes": 15
+  },
+  "visual": {
+    "showNametag": true,
+    "showNametagTimer": true,
+    "showProtectionStatusInNametag": true,
+    "ownerNameColorHex": "#F7B733",
+    "timerColorHex": "#7EF9FF",
+    "protectionLockedColorHex": "#FF6565",
+    "protectionUnlockedColorHex": "#8CFFB0",
+    "hologramVerticalOffset": 0.15,
+    "hologramLineSpacing": 0.24,
+    "hologramSecondaryScale": 0.92,
+    "spawnSoulParticles": true,
+    "playSpawnSound": true,
+    "playRetrieveSound": true,
+    "enableFallingAnimation": true
+  },
+  "corpse": {
+    "scale": 1.38,
+    "verticalOffset": 0.22,
+    "fallLiftHeight": 1.05,
+    "fallAnimationTicks": 16.0,
+    "flatRotationDegrees": 98.0,
+    "sideRollDegrees": -14.0,
+    "yawOffsetDegrees": -18.0,
+    "shadowRadius": 0.78,
+    "randomPoseCount": 12,
+    "forwardOffset": 0.0,
+    "sideOffset": 0.0,
+    "modelAnchorYOffset": -0.92,
+    "headPitchDegrees": 28.0,
+    "headYawDegrees": -42.0,
+    "headRollDegrees": -18.0,
+    "bodyPitchDegrees": 4.0,
+    "bodyRollDegrees": -8.0,
+    "leftArmPitchDegrees": -128.0,
+    "leftArmYawDegrees": 42.0,
+    "leftArmRollDegrees": -78.0,
+    "rightArmPitchDegrees": -96.0,
+    "rightArmYawDegrees": -22.0,
+    "rightArmRollDegrees": 56.0,
+    "leftLegPitchDegrees": 22.0,
+    "leftLegYawDegrees": 8.0,
+    "leftLegRollDegrees": 10.0,
+    "rightLegPitchDegrees": -26.0,
+    "rightLegYawDegrees": -8.0,
+    "rightLegRollDegrees": -16.0
+  },
+  "retrieval": {
+    "allowGuiOpen": true,
+    "allowQuickShiftRightClick": true,
+    "allowItemDeposit": false,
+    "dropOverflowOnQuickRetrieve": false,
+    "restoreExactInventoryLayout": true,
+    "restoreSelectedHotbarSlot": true,
+    "preserveRespawnLoot": true
+  },
+  "locator": {
+    "rescueVoidDeaths": true,
+    "sendChatMessage": true,
+    "giveCompass": true,
+    "removeCompassWhenResolved": true
+  },
+  "experience": {
+    "preventDropOnDeath": true,
+    "storeOnGrave": true,
+    "restorePercent": 0.5,
+    "awardWhenGraveEmptied": true,
+    "onlyOwnerCanClaim": true
+  },
+  "despawn": {
+    "smartDespawn": true,
+    "waitForTimerWhenEmpty": false
+  },
+  "compatibility": {
+    "respectKeepInventoryGameRule": false
+  }
+}

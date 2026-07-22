@@ -1,0 +1,887 @@
+{
+  "width": 10,
+  "height": 10,
+  "velocityRandomness": 0,
+  "caveDustEnabled": true,
+  "seaLevelCheck": true,
+  "superFlatStatus": false,
+  "upperLimit": 64.0,
+  "lowerLimit": -64.0,
+  "particleMultiplier": 1,
+  "listNumber": 0,
+  "particleMultiplierMultiplier": 10,
+  "list": [
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "magnet_lightning"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dolphin"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "heart"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "bubble_pop"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "mushroom_cloud_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "sculk_charge_pop"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "gammaroach"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_obsidian_tear"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "raygun_explosion"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "white_vent_smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dust"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_proton"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "forsaken_sonar_large"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "zephyr_snowflake"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_tectonic_proton"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "enchant"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "wax_on"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "campfire_signal_smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "sculk_soul"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_spore_blossom"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_retro_lightning"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "ash"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "player_rainbow"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "watcher_appearance"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "purple_soda_fizz"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "mine_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "gust_emitter_large"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tephra_small"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "frozen"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "passive_whirlwind"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_dust"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "current_down"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dust_plume"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_tectonic_explosion"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "purple_witch_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "lava"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "void_being_cloud"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "door"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "trial_spawner_detection"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "bubble"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "landing_lava"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "sneeze"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dripping_water"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "dinosaur_transformation_tectonic"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "mycelium"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "underwater"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "small_gust"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "rainbow"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "nuclear_siren_sonar"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "purple_soda_bubble_emitter"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "totem_of_undying"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "luxtructosaurus_spit"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "stun_star"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "water_tremor"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "instant_effect"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_nectar"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "falling_guano"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "cherry_leaves"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "aether_portal"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "ice_cream_drip"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "elder_guardian"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "crystal_leaves"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "vault_connection"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tube_worm"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "poof"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "quarry_border_lightning"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "scrape"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "shriek"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "bio_pop"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "conversion_crucible_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_lava"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "amber_explosion"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "sundrop"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "acid_bubble"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "angry_villager"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "splash"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "soul_fire_flame"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "witch"
+    },
+    {
+      "field_13353": "ribbits",
+      "field_13355": "spell"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "spit"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_honey"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "big_splash_effect"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "hazmat_breathe"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "scarlet_magnetic_flow"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "squid_ink"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dripping_honey"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "colored_dust"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "enchanted_hit"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_steam"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "black_vent_smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "end_rod"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "trial_omen"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "composter"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "white_ash"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "blue_hazmat_breathe"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tephra_flame"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "big_block_dust"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dripping_dripstone_water"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "trial_spawner_detection_ominous"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "big_splash"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dripping_dripstone_lava"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "firework"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "scarlet_magnetic_orbit"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "rain"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "glow"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "fallout"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "azure_magnetic_orbit"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_dripstone_water"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "void_being_tendril"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "flame"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "red_vent_smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "item_snowball"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "totem_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "nautilus"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "witch_cookie"
+    },
+    {
+      "field_13353": "lootr",
+      "field_13355": "unopened_particle"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "raid_omen"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "spore_blossom_air"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_tectonic_lightning"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "frostmint_explosion"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "fly"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "underzealot_magic"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dripping_lava"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "bubble_column_up"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "golden_oak_leaves"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "magnetic_caves_ambient"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "block_marker"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "gust_emitter_small"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "happy_villager"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "luxtructosaurus_ash"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "wax_off"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tesla_bulb_lightning"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "damage_indicator"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "infested"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "gust"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "electric_spark"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dust_color_transition"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "azure_magnetic_flow"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "item_cobweb"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "radgill_splash"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "reverse_portal"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "acid_drop"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "landing_honey"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "moth_dust"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "soul"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "note"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "blue_raygun_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "explosion_emitter"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "block"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "azure_shield_lightning"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_blast"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "large_smoke"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "raygun_blast"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "ominous_spawning"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tephra"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "evil_whirlwind"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_retro_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "item_slime"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "entity_effect"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "galena_debris"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_lightning"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "item"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "amber_monolith"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "sculk_charge"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "scarlet_shield_lightning"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "forsaken_spit"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "candicorn_charge"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "sugar_flake"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "water_foam"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "sonic_boom"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "gobthumper"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "caramel_drop"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "sweep_attack"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "portal"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "proton"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dragon_breath"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "small_flame"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "egg_crack"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "purple_soda_bubble"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "crit"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "underzealot_explosion"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "glow_squid_ink"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "happiness"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "campfire_cosy_smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "snowflake"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "fishing"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "flash"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "ice_cream_splash"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "white_smoke"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "sleep"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "green_vent_smoke"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "void_being_eye"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "forsaken_sonar"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "purple_witch_magic"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_water"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dust_pillar"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "warped_spore"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "dripping_obsidian_tear"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "cloud"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "dinosaur_transformation_amber"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "tremorzilla_retro_proton"
+    },
+    {
+      "field_13353": "cavedust",
+      "field_13355": "cave_dust"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "landing_obsidian_tear"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "crimson_spore"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "ferrouslime"
+    },
+    {
+      "field_13353": "aether",
+      "field_13355": "holiday_leaves"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "jelly_bean_eat"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "mushroom_cloud"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "deep_one_magic"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "effect"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "vibration"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "mushroom_cloud_smoke"
+    },
+    {
+      "field_13353": "minecraft",
+      "field_13355": "falling_dripstone_lava"
+    },
+    {
+      "field_13353": "alexscaves",
+      "field_13355": "small_colored_dust"
+    }
+  ],
+  "newId": {
+    "field_13353": "cavedust",
+    "field_13355": "cave_dust"
+  }
+}
